@@ -472,7 +472,7 @@ const Project1 = () => {
 						<rect className="stats_bar" data-age="5"></rect>
 					</g>
 				</svg>
-				<a></a>
+				<a href="https://github.com/samuelhickeyIII/project-1/blob/master/src/index.js"> Source Code </a>
 			</div>
 		</div>
 	);
