@@ -56,4 +56,12 @@ And finally, we will display a bar graph which shows the age distribution of the
 
 I should also mention that everything in the final visualization is also linked to the map to dynamically increase the size of the associated circles. 
 
-As a bit of reflection, I feel like using React was probably a bit overkill and in some cases made this more difficult. However, it did allow for rapid development, and while it was difficult to learn at first, by the end of the project I could really see the benefit of using such a tool. Likewise for D3, in the case of basic visualizations, it is a bit too powerful. But for a project like this, where we want to make visualizations that can provide the best experience to help our users learn and understand the universe around them, React and D3 are a great combination.
+As a bit of reflection, I feel like using React was probably a bit overkill and in some cases made this more difficult. However, it did allow for rapid development, and while it was difficult to learn at first, by the end of the project I could really see the benefit of using such a tool. Likewise for D3, in the case of basic visualizations, it is a bit too powerful. But for a project like this, where we want to make visualizations that can provide the best experience to help our users learn and understand the universe around them, React and D3 are a great combination. 
+
+### Improvements:
+Add a y-axis for the Age Group percentages
+
+Add a grid system to allow for highlighting deaths in certain regions of the map
+
+Add a small text box which displays the information about a specific person, when hovering over their associated dot on the map 
+
