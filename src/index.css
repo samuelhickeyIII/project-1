@@ -2,13 +2,15 @@
 body {
   padding: 80px 40px;
   font-family: Helvetica;
-  background: darkslategray;
+  background: #E8E9EB;
 }
 
 .wrapper {
   font-size: 16px;
   color: #666;
   padding: 25px;
+  outline: solid black;
+  background-color: azure;
 }
 
 svg {
@@ -16,9 +18,14 @@ svg {
 }
 
 text {
-  fill: gainsboro;
-  color: gainsboro;
+  fill: black;
+  color: black;
   font-size: 16px;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
 }
 
 .subtitle text {
