@@ -473,7 +473,7 @@ const Project1 = () => {
 			<div className="links">
 				<a href="https://github.com/samuelhickeyIII/project-1/blob/master/src/index.js">Source Code</a>
 				<a href="https://github.com/samuelhickeyIII/project-1/blob/master/README.md">Documentation</a>
-				<a href="a link">Video</a>
+				<a href="https://youtu.be/G7nnqDiq5nk">Video</a>
 			</div>
 		</div>
 	);
