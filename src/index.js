@@ -65,10 +65,7 @@ const Project1 = () => {
 
 	// Add deaths to the map
 	const addDeaths = function(personData, xscl, yscl) {
-		var cValue = function (x) {
-			return x["gender"];
-		},
-			color = d3
+		const color = d3
 			.scaleLinear()
 			.domain([1, 2])
 			.interpolate(d3.interpolateHsl)
@@ -87,7 +84,7 @@ const Project1 = () => {
 				.attr("data-sex", person.gender)
 				.attr("data-age", person.age)
 				.attr("class", "deaths")
-				.style("fill", color(cValue(person)));
+				.style("fill", color(person["gender"]));
 			});
 		};
 	};
@@ -472,7 +469,11 @@ const Project1 = () => {
 						<rect className="stats_bar" data-age="5"></rect>
 					</g>
 				</svg>
-				<a href="https://github.com/samuelhickeyIII/project-1/blob/master/src/index.js"> Source Code </a>
+			</div>
+			<div className="links">
+				<a href="https://github.com/samuelhickeyIII/project-1/blob/master/src/index.js">Source Code</a>
+				<a href="https://github.com/samuelhickeyIII/project-1/blob/master/README.md">Documentation</a>
+				<a href="a link">Video</a>
 			</div>
 		</div>
 	);
